@@ -2,7 +2,7 @@ pipeline {
      agent any
      tools {
             nodejs "nodejs"
-            mongo "mongodb"
+            mongodb "mongodb"
            }
      environment {
             CI = 'true'
