@@ -10,13 +10,13 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'npm install'
+                sh 'npm start'
                 
             }
         }
         stage('Test') {
               steps {
-                 sh 'npm start'
+                 echo "done"
             }
         }
                
