@@ -12,7 +12,7 @@ pipeline {
         }
         stage('Test') {
                     steps {
-                        sh 'mongod'
+                        sh 'npm start'
                     }
                 }
                
